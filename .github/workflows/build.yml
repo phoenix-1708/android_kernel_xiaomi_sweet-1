@@ -40,4 +40,4 @@ jobs:
       - name: Build
         run: |
               https://raw.githubusercontent.com/phoenix-1708/android_kernel_xiaomi_sweet-1/11/kernel_setup.sh
-              source kernel_setup.sh
+              bash kernel_setup.sh
