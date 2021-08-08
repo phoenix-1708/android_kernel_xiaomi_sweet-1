@@ -13,12 +13,14 @@ LOG="$HOME/log.txt"
 ARCH="arm64"
 SUBARCH="arm64"
 export ARCH SUBARCH
+export KBUILD_BUILD_USER=phoenix-1708
+export KBUILD_BUILD_HOST=ubuntu
 
 KERNEL_IMG=$KERNEL_DIR/out/arch/$ARCH/boot/Image.gz
 KERNEL_DTBO=$KERNEL_DIR/out/arch/$ARCH/boot/dtbo.img
 
-TG_CHAT_ID="1139604865"
-TG_BOT_TOKEN="$BOT_API_KEY"
+TG_CHAT_ID="-509071822"
+TG_BOT_TOKEN="1858827137:AAFZVaKOjAhjVyCXfiGgL-SK6dp7_lILZIE"
 # End config
 
 # Function definitions
