@@ -20,7 +20,7 @@ KERNEL_IMG=$KERNEL_DIR/out/arch/$ARCH/boot/Image.gz
 KERNEL_DTBO=$KERNEL_DIR/out/arch/$ARCH/boot/dtbo.img
 
 TG_CHAT_ID="-509071822"
-TG_BOT_TOKEN="1858827137:AAFZVaKOjAhjVyCXfiGgL-SK6dp7_lILZIE"
+TG_BOT_TOKEN="$BOT_TOKEN"
 # End config
 
 # Function definitions
