@@ -32,6 +32,7 @@ jobs:
               git config --global user.name "phoenix-1708"
               git config --global user.email "harikumar1708@gmail.com"
               git config --global color.ui true
+              ${{ secrets.BOT_TOKEN }}
 
       # Runs a set of commands using the runners shell
       - name: Setup Build Env
